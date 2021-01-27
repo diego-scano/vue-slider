@@ -8,7 +8,6 @@ new Vue({
       'https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg'
     ],
     imageIndex: 0,
-    circleIndex: 0,
   },
   methods: {
     prev: function() {
