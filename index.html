@@ -21,7 +21,7 @@
             <i class="fas fa-angle-right"></i>
           </div>
           <div class="nav">
-            <i v-for="(circle, index) in 4" class="fas fa-circle" :class="(index === imageIndex) ? 'active' : ''" @click="selectByCircle(index)"></i>
+            <i v-for="(circle, circleIndex) in 4" class="fas fa-circle" :class="(circleIndex === imageIndex) ? 'active' : ''" @click="selectByCircle(circleIndex)"></i>
           </div>
         </div>
       </div>
