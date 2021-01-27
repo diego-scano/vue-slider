@@ -25,8 +25,8 @@ new Vue({
         this.imageIndex += 1;
       }
     },
-    selectByCircle: function() {
-      this.imageIndex = this.index;
+    selectByCircle: function(index) {
+      this.imageIndex = index;
     }
   }
 })
